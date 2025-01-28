@@ -1,0 +1,39 @@
+.logo {
+  width: 70px;
+}
+
+@media (min-width: 320px) {
+  .logo {
+    width: 75px;
+  }
+}
+
+@media (min-width: 480px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+@media (min-width: 640px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+@media (min-width: 720px) {
+  .logo {
+    width: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo {
+    width: 100px;
+  }
+}

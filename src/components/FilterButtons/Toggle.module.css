@@ -1,0 +1,50 @@
+.wrapper {
+  height: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  display: flex;
+  width: 75px;
+  height: 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  box-sizing: content-box;
+  outline-offset: 3px;
+  background: #7c7c7c;
+  box-shadow: inset 2px 2px 9px #949194, inset -2px -2px 9px #aaa298;
+}
+
+.ball {
+  display: block;
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  background: linear-gradient(145deg, #aaa298, #7c7c7c);
+  box-shadow: 3px 3px 3px #7c7c7c, inset -3px -3px 3px #aaa298;
+  border-radius: 1000px;
+}
+
+.active {
+  display: block;
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  box-shadow: 3px 3px 3px #7c7c7c38, inset -3px -3px 3px #aaa298;
+  border-radius: 1000px;
+  background: linear-gradient(145deg, #dedc00, #afac00);
+}
+
+.favorite {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 0.833rem;
+}
+
+.favoriteCount {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.833rem;
+}

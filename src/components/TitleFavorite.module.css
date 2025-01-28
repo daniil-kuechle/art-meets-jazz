@@ -1,0 +1,32 @@
+.artistName {
+  /* margin-left: auto;
+    margin-right: auto; */
+  width: 60vw;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: left;
+  /* padding: 2rem 0 0 0; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.titleTop:nth-child(2):before {
+  content: "";
+  display: block;
+}
+
+@media (min-width: 720px) {
+  .artistName {
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .titleTop:nth-child(2):before {
+    display: inline;
+    content: " - ";
+  }
+}

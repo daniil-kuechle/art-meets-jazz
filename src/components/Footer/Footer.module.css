@@ -1,0 +1,136 @@
+.footer {
+  margin-top: auto;
+  background-color: var(--color-SW7674);
+}
+
+.inner {
+  height: 100%;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left,
+.right {
+  width: 50%;
+  font-family: Inter;
+  font-size: 1rem;
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 35px;
+}
+
+.left > ul,
+.right > ul {
+  list-style-type: none;
+  margin-bottom: 4vmin;
+  line-height: 150%;
+}
+
+ul:first-of-type {
+  font-size: 1.4rem;
+  line-height: 160%;
+}
+/* 
+--color-SW7024: #aaa298;
+--color-SW9153: #949194;
+--color-18MATTGREY: #SW7674;
+--color-SW7674: #585858; */
+
+.button {
+  cursor: pointer;
+  transform-origin: center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -40px auto;
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  background-color: var(--color-AMJ);
+  font-family: Inter;
+  font-size: 2.5rem;
+
+  display: flex;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+}
+
+.button > div {
+  transform: translate(0%, 20%);
+  text-decoration: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 0px) {
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  ul:first-of-type {
+    font-size: 0.7rem;
+    line-height: 160%;
+  }
+  ul {
+    font-size: 0.7rem;
+    line-height: 160%;
+  }
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 480px) {
+  ul:first-of-type {
+    font-size: 0.9rem;
+    line-height: 160%;
+  }
+  ul {
+    font-size: 0.9rem;
+    line-height: 160%;
+  }
+}
+
+@media (min-width: 640px) {
+  .inner {
+    width: 85vw;
+  }
+  ul:first-of-type {
+    font-size: 1.2rem;
+    line-height: 160%;
+  }
+  ul {
+    font-size: 0.8rem;
+    line-height: 160%;
+  }
+}
+
+@media (min-width: 720px) {
+  .inner {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inner {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .inner {
+    width: 70vw;
+  }
+  ul:first-of-type {
+    font-size: 1.4rem;
+    line-height: 160%;
+  }
+}
