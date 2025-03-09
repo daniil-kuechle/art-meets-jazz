@@ -1,0 +1,146 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90vw;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  /* background-color: var(--color-18MATTGREY); */
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-top: 1px solid var(--color-SW9153); */
+  /* border-bottom: 1px solid var(--color-SW9153); */
+}
+
+.harald {
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+
+  /* height: 30vh; */
+}
+
+.body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  z-index: 2;
+}
+
+.containerWords {
+  margin: auto;
+  margin-left: 0;
+  flex-wrap: wrap;
+  font-family: "Source Serif 4", serif;
+  color: rgb(24, 24, 24);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  line-height: 160%;
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* .containerWords > span {
+  color: black;
+} */
+
+/* .containerWords {
+  &:nth-of-type(1) {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+} */
+
+/* .containerWords > .span {
+  margin-right: 3px;
+}
+
+.containerWords > .mask {
+  overflow: hidden;
+  position: relative;
+  display: inline-flex;
+} */
+
+@media (min-width: 320px) {
+  .description {
+    width: 80vw;
+  }
+  .containerWords {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 480px) {
+  .description {
+    width: 80vw;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media (min-width: 720px) {
+  .description {
+    width: 85vw;
+  }
+  .body,
+  .harald {
+    width: 70%;
+  }
+}
+
+@media (min-width: 920px) {
+  .body,
+  .harald {
+    width: 550px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .description {
+    width: 80vw;
+  }
+  .harald,
+  .body {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .description {
+    width: 70vw;
+  }
+  .body,
+  .harald {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .description {
+    width: 70vw;
+  }
+  .body,
+  .harald {
+    width: 600px;
+  }
+}
+@media (min-width: 1440px) {
+  .description {
+    flex-direction: row;
+  }
+  .harald {
+    width: 500px;
+  }
+}

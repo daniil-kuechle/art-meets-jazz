@@ -1,0 +1,155 @@
+:root {
+  --color-text: #dee2e6;
+  --color-text-dark: #adb5bd;
+  --color-text-darker: #767c83;
+  --color-navbar: #f5f5f500;
+  --color-background-100: #f5f5f5;
+  --color-background-500: #2b3035;
+  --color-background-900: #212529;
+  --color-background-0: #000000;
+
+  --color-SW7024: #aaa298;
+  --SW7024-01: #ab9c98;
+  --SW7024-02: #aba598;
+  --SW7024-03: #ab9f98;
+  --SW7024-04: #ab8a63;
+  --SW7024-05: #aba798;
+  --SW7024-C01: #324a56;
+  --SW7024-C02: #98abab;
+  --SW7024-C03: #989fab;
+  --SW7024-C04: #153333;
+  --SW7024-C05: #152033;
+  --SW7024-T01: #9f98ab;
+  --SW7024-T02: #98ab9c;
+  --SW7024-T03: #564532;
+  --SW7024-T03: #211533;
+
+  --color-18MATTGREY: #7c7c7c;
+  --color-SW9153: #949194;
+  --color-SW7674: #585858;
+
+  --color-AMJ-1: #343423;
+  --color-AMJ-2: #5e5e2f;
+  --color-AMJ-3: #89872e;
+  --color-AMJ-4: #b3b11e;
+  --color-AMJ: #dedc00;
+}
+
+.wrapper {
+  background-color: var(--color-18MATTGREY);
+  display: flex;
+  flex-direction: column;
+  min-width: 100svw;
+  min-height: 100svh;
+  justify-content: flex-start;
+}
+
+.container {
+  width: 90vw;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+}
+
+.textContainer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.big,
+.response {
+  font-family: "Source Serif 4", serif;
+  color: var(--color-SW7024);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 110%;
+  white-space: pre-wrap;
+  padding-bottom: 1rem;
+}
+
+.response {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.small {
+  font-family: Inter;
+  color: var(--color-AMJ-4);
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+@media (min-width: 280px) {
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 480px) {
+  .response {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .textContainer {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 720px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+  .textContainer {
+    width: 100%;
+  }
+  .container {
+    width: 70vw;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: left;
+  }
+  .big {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 110%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1366px) {
+}
+@media (min-width: 1920px) {
+}

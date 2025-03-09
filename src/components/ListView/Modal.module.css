@@ -1,0 +1,55 @@
+.modalContainer {
+  /* z-index: -1; */
+  position: fixed;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(167, 167, 167);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.modalSlider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: top 0.4s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.modal {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal img {
+  max-height: 100%;
+}
+
+/* .cursor {
+  width: 45px;
+  height: 45px;
+  background-color: #dedc00;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+  color: white;
+}
+
+.cursorLabel {
+  width: 40px;
+  height: 40px;
+  background-color: #dedc00;
+  position: absolute;
+  pointer-events: none;
+  color: black;
+  font-family: Inter;
+  font-size: 0.9rem;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-left: 3px;
+} */
