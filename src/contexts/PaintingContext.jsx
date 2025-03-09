@@ -7,9 +7,7 @@ const PaintingContext = createContext();
 function PaintingProvider({ children }) {
   const [query, setQuery] = useState("");
   const [favorites, setFavorites] = useLocalStorageState([], "ID");
-  const [favoritePaintings, setFavoritePaintings] = useState([]);
   const [toggleFavorites, setToggleFavorites] = useState(false);
-  const [allPaintings, setPaintings] = useState(paintings);
 
   let displayedPaintings = [];
   let filteredPaintings = [];
@@ -67,12 +65,8 @@ function PaintingProvider({ children }) {
         listPaintings,
         query,
         setQuery,
-        allPaintings,
-        setPaintings,
         favorites,
         setFavorites,
-        favoritePaintings,
-        setFavoritePaintings,
         toggleFavorites,
         setToggleFavorites,
       }}
